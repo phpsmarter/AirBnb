@@ -9,7 +9,7 @@ constructor(props){
 	console.log(this.props)
 }
 
-menu(){
+menu(){//函数的内容都可定义定义吗?
   if(this.props.state.navProps.type == "menu"){
     this.props.onPress();
 
